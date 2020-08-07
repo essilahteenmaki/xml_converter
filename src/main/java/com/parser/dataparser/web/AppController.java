@@ -10,7 +10,7 @@ public class AppController {
 	
 	@GetMapping("/test2")
 	public static void convert() {
-		Parser.parse();
+		Parser.parseXml();
 	}
 	
 	
